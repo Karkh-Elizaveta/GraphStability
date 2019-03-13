@@ -1,0 +1,47 @@
+body{
+    width:960px;
+    margin:10px auto;
+}
+circle{
+    fill: #EEEEEE;
+    stroke:black;
+    stroke-width:2px;
+}
+rect{
+    fill: #EEEEEE;
+    stroke:black;
+    stroke-width:2px;
+}
+line{
+    stroke:black;
+    stroke-width:3px;
+}
+.active {
+    fill: #8CCD9B
+}
+.activeError {
+    fill: #E15C7B
+}
+#sran {
+    display: inline-block;
+    margin-left: 3px;
+}
+.error{
+    fill: #EE8DA4
+}
+.incRect{
+    stroke:grey;
+    shape-rendering:crispEdges;
+}
+#treesvg g text:hover, #treesvg g circle:hover{
+    cursor:pointer;
+}
+#labelpos{
+    color:white;
+}
+#navdiv button, #navdiv textarea{
+    vertical-align:middle;
+}
+#g_labels text{
+    text-anchor:middle;
+}
